@@ -1,0 +1,11 @@
+on break:
+	if player's helmet slot contains {autocomp}:
+		if player's inventory contains 64 diamonds:
+			subtract 64 diamonds from player's inventory
+			give player {compdiamond}
+		
+command /comphat:
+    permission: test
+    trigger:
+        give player {autocomp}
+
